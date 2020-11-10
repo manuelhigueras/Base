@@ -22,6 +22,8 @@ public class Pruebas {
         ca.lado = 5;
         ca.x = 4;
         ca.y = 37;
+        ca.dibujar();
+        System.out.println("Area de cuadrado es " + ca.calcularArea());
         
         Rectangulo r = new Rectangulo();
         r.x = 5;
@@ -29,16 +31,28 @@ public class Pruebas {
         r.alto = 5;
         r.ancho = 10;
         
+        
+        //Polimofismo
+        Figura cuadrado = new Cuadrado();
+        cuadrado.x = 5;
+        cuadrado.y = 5;
+        
+        
+        // CREAR UN ARRAY DE FIGURAS DONDE
+        // pongo los elementos a digujar en el cuadro
         Figura[] figuras = new Figura[4];
         figuras[0] = f;
         figuras[1] = c;
         figuras[2] = ca;
         figuras[3] = r;
+    
+        dibujarCuadro(figuras);
         
-        for(Figura fig: figuras){
-            fig.dibujar();
-        }
-         
-        
-    }
+    }//fin main
+    
+    public static void dibujarCuadro(Figura[] figurasADibujar){
+        for(Figura f: figurasADibujar){
+            f.dibujar();
+        }//fin for
+    }  
 }

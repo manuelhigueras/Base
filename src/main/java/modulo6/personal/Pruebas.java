@@ -40,6 +40,9 @@ public class Pruebas {
          Empleado  e67 = new Director(); // bd.getEmpleadoId(3);
         //  e67.aumentarComision(); // no esta declarado en Empleado
   
+        felicitacionNavidad(e67);
+        felicitacionNavidad(luis);
+        felicitacionNavidad(g);
 
     }//fin main
     

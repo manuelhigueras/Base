@@ -14,7 +14,7 @@ public class Empleado {
 
     @Override
     public String toString() {
-        return "Empleado{" + "nombre=" + nombre + ", salario=" + salario + ", fechaNacimiento=" + fechaNacimiento + '}';
+        return "{" + "nombre=" + nombre + ", salario=" + salario + ", fechaNacimiento=" + fechaNacimiento + '}';
     }
  
 }//fin clase

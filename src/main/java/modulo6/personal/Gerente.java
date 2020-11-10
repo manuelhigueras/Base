@@ -7,6 +7,15 @@ package modulo6.personal;
  */
 public class Gerente extends Empleado{
     
-    public String departamento;
-    
+    public String departamento = "";
+
+    @Override
+    public String toString() {
+          return "{" + "nombre=" + nombre 
+                  + ", salario=" + salario 
+                  + ", fechaNacimiento=" + fechaNacimiento 
+                  + "Gerente de " + departamento
+                  + '}';
+   
+    }  
 }

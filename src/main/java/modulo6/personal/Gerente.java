@@ -14,8 +14,7 @@ public class Gerente extends Empleado{
           return "{" + "nombre=" + nombre 
                   + ", salario=" + salario 
                   + ", fechaNacimiento=" + fechaNacimiento 
-                  + "Gerente de " + departamento
+                  + " Gerente de " + departamento
                   + '}';
-   
     }  
 }

@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package demos;
 
 /**
@@ -10,5 +6,18 @@ package demos;
  * @author begonaolea
  */
 public class Prueba {
+    //atributos
+    String nombre;
     
+    public static void main(String[] args) {
+        //var locales
+        String s  = null;
+        int longitud = s.length();
+        
+        
+        Prueba p = new Prueba(); 
+        //crear un objeto Prueba con un atributo nombre = null
+        longitud = p.nombre.length();
+        
+    }
 }

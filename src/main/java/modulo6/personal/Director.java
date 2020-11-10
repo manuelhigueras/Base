@@ -21,4 +21,10 @@ public class Director extends Gerente{
                   + " Vehículo empresa " + vehiculoEmpresa
                   + '}';
     }  
-}
+
+    @Override
+    public void saluda() {
+        System.out.println("Buenos días soy el Director");
+    }
+    
+}//fin clase

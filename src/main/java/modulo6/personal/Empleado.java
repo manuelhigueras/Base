@@ -16,5 +16,9 @@ public class Empleado {
     public String toString() {
         return "{" + "nombre=" + nombre + ", salario=" + salario + ", fechaNacimiento=" + fechaNacimiento + '}';
     }
+    
+    public void saluda(){
+        System.out.println(" hola soy empleado");
+    }
  
 }//fin clase

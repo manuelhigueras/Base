@@ -11,10 +11,7 @@ public class Gerente extends Empleado{
 
     @Override
     public String toString() {
-          return "{" + "nombre=" + nombre 
-                  + ", salario=" + salario 
-                  + ", fechaNacimiento=" + fechaNacimiento 
-                  + " Gerente de " + departamento
-                  + '}';
+          return super.toString() 
+                  + " Gerente de " + departamento ;
     }  
 }

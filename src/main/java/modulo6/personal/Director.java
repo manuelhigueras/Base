@@ -14,12 +14,8 @@ public class Director extends Gerente{
     
      @Override
     public String toString() {
-          return "{" + "nombre=" + nombre 
-                  + ", salario=" + salario 
-                  + ", fechaNacimiento=" + fechaNacimiento 
-                  + " Gerente de " + departamento
-                  + " Vehículo empresa " + vehiculoEmpresa
-                  + '}';
+          return super.toString()
+                 + " Vehículo empresa " + vehiculoEmpresa;
     }  
 
     @Override

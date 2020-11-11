@@ -2,8 +2,8 @@
 package modulo6.figuras;
 
 public class Figura {
-    public int x;
-    public int y;
+    protected int x;
+    protected int y;
     
     public void dibujar(){
         System.out.println("Dibujo figura en posición " + x + ", " + y);

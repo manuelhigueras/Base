@@ -43,6 +43,7 @@ public class Pruebas {
         felicitacionNavidad(e67);
         felicitacionNavidad(luis);
         felicitacionNavidad(g);
+        felicitacionNavidad(new Ingeniero());
 
     }//fin main
     
@@ -50,6 +51,10 @@ public class Pruebas {
     public static void felicitacionNavidad(Empleado e){
         System.out.println(" Felicitacion");
         e.saluda();
+        if ( e instanceof Ingeniero){
+            System.out.println("... Tómatelo con más calma este nuevo año");
+        }
+        
     }//fin metod
 
 }

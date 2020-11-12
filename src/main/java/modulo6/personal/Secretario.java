@@ -5,10 +5,26 @@
  */
 package modulo6.personal;
 
+import java.util.Date;
+
 /**
  *
  * @author begonaolea
  */
 public class Secretario extends Empleado{
+
+    public Secretario(String nombre, double salario, Date fechaNacimiento) {
+        super(nombre, salario, fechaNacimiento);
+    }
+
+    public Secretario(String nombre, double salario) {
+        super(nombre, salario);
+    }
+
+    public Secretario(String nombre) {
+        super(nombre);
+    }
+    
+    
     
 }

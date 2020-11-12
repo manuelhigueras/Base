@@ -5,10 +5,30 @@
  */
 package modulo6.personal;
 
+import java.util.Date;
+
 /**
  *
  * @author begonaolea
  */
 public class Ingeniero extends Empleado{
+
+    public Ingeniero(String nombre) {
+        super(nombre);
+    }
+
+    public Ingeniero(String nombre, double salario, Date fechaNacimiento) {
+        super(nombre, salario, fechaNacimiento);
+    }
+
+    public Ingeniero(String nombre, double salario) {
+        super(nombre, salario);
+    }
+
+    public Ingeniero(String nombre, Date FdeNac) {
+        super(nombre, FdeNac);
+    }
+    
+    
     
 }

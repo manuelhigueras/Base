@@ -4,17 +4,18 @@ import java.util.Date;
 
 /**
  * Clase que modela un empleado
+ *
  * @author begonaolea
  */
 public class Empleado {
+
     //variables de clases  ( por clase)
     public static final double SALARIO_BASE = 15_000.0;
     //variable de instancia (por cada objeto)
     protected String nombre;
     protected double salario;
     protected Date fechaNacimiento;
-    
-    
+
     //CONSTRUCTORES
     public Empleado(String nombre, double salario, Date fechaNacimiento) {
         System.out.println(".... constructor 1");
@@ -27,19 +28,28 @@ public class Empleado {
         this(nombre, salario, null); //llama al contructor anterior
         System.out.println(".... constructor 2");
     }
- 
+
+    public Empleado(String nombre, Date FdeNac) {
+        this(nombre, SALARIO_BASE, FdeNac);
+        System.out.println("... .constructor 3");
+    }
+
+    public Empleado(String nombre) {
+        this(nombre, SALARIO_BASE);
+        System.out.println("...... constructor 4");
+    }
 
     @Override
     public String toString() {
         return "{" + "nombre=" + nombre + ", salario=" + salario + ", fechaNacimiento=" + fechaNacimiento + '}';
     }
-    
-    public void saluda(){
+
+    public void saluda() {
         System.out.println(" hola soy empleado");
     }
-    
-    public void saluda(String msg ){
-        System.out.println(msg  + " empleado");
+
+    public void saluda(String msg) {
+        System.out.println(msg + " empleado");
     }
- 
+
 }//fin clase

@@ -13,6 +13,10 @@ public class PruebaConstructores {
         
         Empleado e2 = new Empleado("Laura Roca", 39_0000.0);
         System.out.println(e2);
+        
+        Empleado e3 = new Empleado("Begoña Olea");
+        System.out.println(e3);
+        
     }
     
 }

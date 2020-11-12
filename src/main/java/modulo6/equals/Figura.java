@@ -38,7 +38,40 @@ public class Figura {
         this.color = color;
     }
     
+    //toString
     
+    //equals
+
+    @Override
+    public String toString() {
+        return "Figura{" + "x=" + x + ", y=" + y + ", color=" + color + '}';
+    }
+
+    @Override
+    public int hashCode() {
+        int hash = 3;
+        return hash;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj == null) {
+            return false;
+        }
+        if (getClass() != obj.getClass()) {
+            return false;
+        }
+        final Figura other = (Figura) obj;
+        if (this.x != other.x) {
+            return false;
+        }
+        if (this.y != other.y) {
+            return false;
+        }
+        return true;
+    }
  
-    
 }

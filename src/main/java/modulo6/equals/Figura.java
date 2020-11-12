@@ -1,4 +1,3 @@
-
 package modulo6.equals;
 
 
@@ -50,6 +49,8 @@ public class Figura {
     @Override
     public int hashCode() {
         int hash = 3;
+        hash = 59 * hash + this.x;
+        hash = 59 * hash + this.y;
         return hash;
     }
 
@@ -73,5 +74,6 @@ public class Figura {
         }
         return true;
     }
- 
+
+    
 }

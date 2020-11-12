@@ -14,7 +14,7 @@ public class PruebaEquals {
         System.out.println("f1 == f2?  " + (f1 == f2));
         System.out.println("f1 equals f2?  " + (f1.equals(f2)));
         
-         System.out.println("f3 == f2?  " + (f3 == f2));
+        System.out.println("f3 == f2?  " + (f3 == f2));
         System.out.println("f3 equals f2?  " + (f3.equals(f2)));
         
         

@@ -4,7 +4,7 @@ package modulo7.account;
 public class Counter {
     
     private int serialNumber;
-    public static int counter = 0;
+    private static int counter = 0;
 
     public Counter() {
         counter ++;
@@ -15,5 +15,9 @@ public class Counter {
     public String toString() {
         return "Account{" + "serialNumber=" + serialNumber + '}';
     }  
+
+    public static int getCounter() {
+        return counter;
+    }
     
 }

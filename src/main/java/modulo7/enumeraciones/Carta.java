@@ -3,14 +3,19 @@ package modulo7.enumeraciones;
 public class Carta {
     
     //ATRIBUTOS
-    private String palo;   // "OROS", "COPAS", "ESPADAS", "BASTOS"
+    private Palo palo;   // "OROS", "COPAS", "ESPADAS", "BASTOS"
     private int valor;
 
     //CONSTRUCTORES
-    public Carta(String palo, int valor) {
+    public Carta(Palo palo, int valor) {
         //validar
         this.palo = palo;
+        // VALOR 1 A 10
         this.valor = valor;
+    }
+    public Carta(){
+        this. palo = aletorio 
+        this.valor =  aleatorio 
     }
     
     //METODOS
@@ -20,7 +25,7 @@ public class Carta {
     
     //GETTERS
 
-    public String getPalo() {
+    public Palo getPalo() {
         return palo;
     }
 

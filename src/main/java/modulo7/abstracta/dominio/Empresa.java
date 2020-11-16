@@ -18,6 +18,10 @@ public class Empresa {
         return vehiculos;
     }
     
+    public Vehiculo getVehiculo(int posicion){
+        return vehiculos[posicion];
+    }
+    
     public void addVehiculo(Vehiculo v){
         if(tamanoFlota < 5){
              this.vehiculos[tamanoFlota] = v;

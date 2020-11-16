@@ -7,6 +7,7 @@ public enum Palo {
     ESPADAS(20), BASTOS(10);
     
     private int valor;
+    private String simbolo;
     
     private Palo(int valor){
         this.valor = valor;
@@ -15,6 +16,5 @@ public enum Palo {
     public int getValor() {
         return valor;
     }
-    
-    
+      
 }

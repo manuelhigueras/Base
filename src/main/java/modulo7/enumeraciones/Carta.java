@@ -51,7 +51,8 @@ public class Carta {
             return this.valor - otraCarta.valor;
         }
         
-        return   otraCarta.getPalo().ordinal() - this.palo.ordinal();
+       // return   otraCarta.getPalo().ordinal() - this.palo.ordinal();
+       return this.palo.getValor() - otraCarta.getPalo().getValor();
     }
     
     //GETTERS

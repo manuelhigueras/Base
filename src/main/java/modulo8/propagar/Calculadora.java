@@ -8,10 +8,10 @@ public class Calculadora {
      * @return    double con la división
      * @throws Exception   si n2 es cero da error
      */
-    public double dividir(int n1, int n2) throws Exception{
+    public double dividir(int n1, int n2) throws CalculadoraException{
         
         if(n2 == 0){
-            throw new Exception("Denominador no debe ser 0");
+            throw new CalculadoraException("Denominador no debe ser 0", n2 );
         }
         return n1/n2;
         

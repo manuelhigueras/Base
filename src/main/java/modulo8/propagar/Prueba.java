@@ -14,9 +14,10 @@ public class Prueba {
         CalcularNomina cn = new CalcularNomina();
         try {
             cn.generaNomina(sb, meses);
-        } catch (Exception ex) {
+        } catch (CalculadoraException ex) {
             
             System.out.println("Error " + ex.getMessage());
+            System.out.println(" Ha introducido numero meses mal " + ex.getNumeroMal()  );
             System.out.println("Puede volver a intentarlo pasando meses > 0");
         }
         

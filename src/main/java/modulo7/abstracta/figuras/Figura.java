@@ -29,6 +29,5 @@ public abstract class Figura {
     }
     
     public abstract  void dibujar();
-    
-    
+
 }//fin clases

@@ -1,10 +1,6 @@
 
 package demos;
 
-/**
- *
- * @author begonaolea
- */
 public class Prueba {
     //atributos
     String nombre;

@@ -2,10 +2,6 @@ package modulo6.personal;
 
 import java.util.logging.Logger;
 
-/**
- *
- * @author begonaolea
- */
 public class Director extends Gerente {
 
     public double vehiculoEmpresa;

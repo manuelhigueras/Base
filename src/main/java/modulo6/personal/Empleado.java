@@ -5,7 +5,6 @@ import java.util.Date;
 /**
  * Clase que modela un empleado
  *
- * @author begonaolea
  */
 public class Empleado {
 

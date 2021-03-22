@@ -1,10 +1,6 @@
 
 package modulo6.personal;
 
-/**
- *
- * @author begonaolea
- */
 public class Gerente extends Empleado{
     
     protected String departamento;
@@ -15,6 +11,12 @@ public class Gerente extends Empleado{
         this.departamento = departamento;
     }
 
+    public Gerente() {
+        super(null);
+    }
+    
+    
+    
     public Gerente(String nombre, String dpto) {
       //  super(nombre);
       //  this.departamento = dpto;

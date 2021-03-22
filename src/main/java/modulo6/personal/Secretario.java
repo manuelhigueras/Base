@@ -7,10 +7,6 @@ package modulo6.personal;
 
 import java.util.Date;
 
-/**
- *
- * @author begonaolea
- */
 public class Secretario extends Empleado{
 
     public Secretario(String nombre, double salario, Date fechaNacimiento) {

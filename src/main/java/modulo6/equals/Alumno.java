@@ -3,10 +3,6 @@ package modulo6.equals;
 
 import java.util.Objects;
 
-/**
- *
- * @author begonaolea
- */
 public class Alumno{
     
     private int dni;

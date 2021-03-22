@@ -6,7 +6,7 @@ public class Pruebas {
 
     //psvm
     public static void main(String[] args) {
-        Date fn  = new Day();
+        Date fn  = new Date();
         
         Empleado e = new Empleado("Luis Ramos");
         System.out.println(e.toString());

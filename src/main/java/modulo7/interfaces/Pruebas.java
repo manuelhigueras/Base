@@ -5,10 +5,6 @@
  */
 package modulo7.interfaces;
 
-/**
- *
- * @author begonaolea
- */
 public class Pruebas {
     public static void main(String[] args) {
         

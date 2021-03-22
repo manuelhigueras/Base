@@ -7,10 +7,6 @@ package modulo6.personal;
 
 import java.util.Date;
 
-/**
- *
- * @author begonaolea
- */
 public class Ingeniero extends Empleado{
 
     public Ingeniero(String nombre) {
@@ -27,6 +23,10 @@ public class Ingeniero extends Empleado{
 
     public Ingeniero(String nombre, Date FdeNac) {
         super(nombre, FdeNac);
+    }
+
+    public Ingeniero() {
+        super(null);
     }
     
     
